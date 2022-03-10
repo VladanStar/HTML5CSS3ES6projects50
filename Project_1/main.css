@@ -17,7 +17,7 @@ body {
 }
 .container {
     display: flex;
-    width: 9vw;
+    width: 90vw;
 }
 .panel {
     background-size: cover;
