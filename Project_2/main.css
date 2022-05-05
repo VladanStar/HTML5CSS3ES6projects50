@@ -65,7 +65,7 @@ body {
     transition: .4s ease;
 }
 .circle.active {
-    border-color: cadetblue;
+    border-color:red;
 }
 .btn {
     background-color: blueviolet;
