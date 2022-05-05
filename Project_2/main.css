@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&family=Roboto:wght@300;400;500&display=swap');
 
+:root {
+    --line--fill:cadetblue;
+    ---line--border--empty:blue;
+}
 *{
     box-sizing: border-box;
     margin: 0;
@@ -48,3 +52,38 @@ body {
     transition: .4s ease;
 }
 
+.circle {
+    background-color: whitesmoke;
+    color: blue;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid greenyellow;
+    transition: .4s ease;
+}
+.circle.active {
+    border-color: cadetblue;
+}
+.btn {
+    background-color: blueviolet;
+    color: bisque;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: inherit;
+    padding: 8px 30px;
+    margin: 5px;
+    font-size: 14px;
+}
+.btn.active {
+    transform: scale(0.98);
+}
+.btn:focus {
+    outline: 0;
+}
+.btn:disabled {
+    background-color: blue;
+    cursor: not-allowed;
+}
