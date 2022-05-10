@@ -21,9 +21,11 @@
            box-shadow: 0 0 30px #aaa;
            margin: 50px;
            padding: 30px;
+           height: 500px;
            display: flex;
            /* flex-wrap: wrap; */
            justify-content: space-around;
+           align-items: stretch;
         }
         .item {
             background: violet;
@@ -33,11 +35,13 @@
             padding: 10px;
             /* flex: 0 0 40%; */
             flex:  0 0 70px;
+
          
            
         }
         .item:nth-child(even) {
             background: lightgreen;
+            align-self: flex-end;
         }
         @media(max-width:767px){
            .item{ flex-basis: 100%;
