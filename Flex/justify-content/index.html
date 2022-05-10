@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Justify Content</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        h1{
+            text-align: center;
+            font-size: 70px;
+        }
+        .container {
+           border: 1px blue solid;
+           box-shadow: 0 0 30px #aaa;
+           margin: 50px;
+           padding: 30px;
+           display: flex;
+           flex-wrap: wrap;
+        }
+        .item {
+            background: violet;
+            border: 1px solid black;
+            text-align: center;
+            font-size: 50px;
+            padding: 10px;
+            flex: 0 0 50%;
+        }
+        .item:nth-child(even) {
+            background: lightgreen;
+        }
+        @media(max-width:767px){
+           .item{ flex-basis: 100%;
+           }
+        }
+    </style>
+</head>
+<body>
+    <h1>Justify Content</h1>
+    <section class="container">
+        <article class="item">1</article>
+        <article class="item">2</article>
+        <article class="item">3</article>
+        <article class="item">4</article>
+
+    </section>
+    
+</body>
+</html>
