@@ -25,6 +25,10 @@ img {
     width: 500px;
     overflow: hidden;
 }
+h1 {
+    text-align: center;
+    margin: 20px auto;
+}
 
 .image-container {
     display: flex;
