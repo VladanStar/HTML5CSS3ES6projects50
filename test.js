@@ -1,3 +1,6 @@
+
+
+'use strict';
 const vladan = 1;
 //vladan = 2;
 console.log(vladan)
@@ -13,3 +16,12 @@ function dex() {
 }
 dex();
 console.log(r);
+
+
+
+
+
+
+let person = { name: 'Carla' };
+
+//delete person; // throws an error
