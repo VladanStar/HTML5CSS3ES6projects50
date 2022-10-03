@@ -1,52 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 
 :root {
-    --primary-color:#22254b;
-    --secondary-color:#373b69;
+  --primary-color: #22254b;
+  --secondary-color: #373b69;
 }
-*{
-    box-sizing: border-box;
-    margin: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
 }
 body {
-    font-family: "Poppins", sans-serif;
-    background-color:var(--primary-color) ;
- 
-    margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--primary-color);
+
+  margin: 0;
 }
 header {
-    padding: 1rem;
-    display: flex;
-    justify-content: flex-end;
-    background-color: var(--secondary-color);
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  background-color: var(--secondary-color);
 }
 .search {
-    background-color: cadetblue;
-    border: 2px solid var(--primary-color);
-    border-radius: 50px;
-    font-family: inherit;
-    font-size: 0.5rem 1rem;
-    color:darkblue;
+  background-color: cadetblue;
+  border: 2px solid var(--primary-color);
+  border-radius: 50px;
+  font-family: inherit;
+  font-size: 0.5rem 1rem;
+  color: darkblue;
 }
 .search::placeholder {
-    color: #7378c5;
+  color: #7378c5;
 }
-.search:focus{
-    color: lightblue;
-    outline: none;
-    background-color: var(--primary-color);
+.search:focus {
+  color: lightblue;
+  outline: none;
+  background-color: var(--primary-color);
 }
 main {
-    display: flex;
+  display: flex;
   flex-wrap: wrap;
 }
 .movie {
-    width: 300px;
-    margin: 1rem;
-    background-color: var(--secondary-color);
-    box-shadow: 0 4px 5px rgba(0, 0,0, 0.2);
-    position: relative;
+  width: 300px;
+  margin: 1rem;
+  background-color: var(--secondary-color);
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+  position: relative;
 }
 .movie img {
-    width: 100%;
+  width: 100%;
 }
