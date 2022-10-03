@@ -6,12 +6,10 @@
 }
 * {
   box-sizing: border-box;
-  margin: 0;
 }
 body {
   font-family: "Poppins", sans-serif;
   background-color: var(--primary-color);
-
   margin: 0;
 }
 header {
@@ -39,6 +37,7 @@ header {
 main {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .movie {
   width: 300px;
@@ -55,6 +54,7 @@ main {
 .movie-info {
     color: #eee;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     padding: 0.5rem 1rem 1rem;
     letter-spacing: 0.5px;
@@ -81,6 +81,13 @@ main {
     background-color: #fff;
     padding: 2rem;
     position: absolute;
-    top: 0;
     bottom: 0;
+    right: 0;
+    left: 0;
+    max-height: 100%;
+    transform: translateY((101%));
+    transition: transform 0.3s ease-in;
+}
+.movie:hover .overview {
+    transform: translateY(0);
 }
