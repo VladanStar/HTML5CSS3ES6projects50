@@ -32,7 +32,7 @@ header {
     color: #7378c5;
 }
 .search:focus{
-    color: blue;
+    color: lightblue;
     outline: none;
     background-color: var(--primary-color);
 }
