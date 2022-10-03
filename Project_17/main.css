@@ -62,3 +62,25 @@ main {
 .movie-info h3 {
     margin-top: 0;
 }
+.movie-info span {
+    background-color: var(--primary-color);
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.movie-info span.green {
+    color: lightgreen;
+}
+.movie-info span.red {
+    color: orangered;
+}
+.movie-info span.orange {
+    color: orange;
+}
+.overview {
+    background-color: #fff;
+    padding: 2rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
