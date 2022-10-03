@@ -85,7 +85,7 @@ main {
     right: 0;
     left: 0;
     max-height: 100%;
-    transform: translateY((101%));
+    transform: translateY(101%);
     transition: transform 0.3s ease-in;
 }
 .movie:hover .overview {
